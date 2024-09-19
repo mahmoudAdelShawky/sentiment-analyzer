@@ -4,10 +4,6 @@ let resultContainer = document.querySelector('.result');
 let result = document.getElementById('lable');
 let btn = document.querySelector('form button');
 let form = document.querySelector('form');
-console.log(resultContainer);
-console.log(result);
-console.log(btn);
-
 if(result.innerHTML === 'POSITIVE'){
     resultContainer.classList.add('positive');
 }else if(result.innerHTML === 'NEGATIVE'){
@@ -25,11 +21,4 @@ btn.addEventListener('click', function(){
 
     }
 })
-
-console.log(result.innerHTML)
-
-
-
-
-
 
